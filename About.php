@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cricket Club - About Us</title>
+    <link rel="stylesheet" href="Style.css">
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -66,9 +67,12 @@
 
 
 <body>
-    <header>
+    <?php include ('navbar.php');
+    ?>
+    <!--<header>
         <h1>R'45 Cricket Academy</h1>
     </header>
+    -->
 
 
 
